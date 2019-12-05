@@ -17,7 +17,7 @@ public class Homepagetab extends Basepagetab{
 	
 	@FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[3]/a")
 	private WebElement Tshirts;
-
+	
 
 	public Homepagetab() {
 		PageFactory.initElements(driver, this);
@@ -32,7 +32,7 @@ public class Homepagetab extends Basepagetab{
 				return Dresses;
 	}
 			public WebElement getTshirts() {
-				return Tshirts;
+				return Womens;
 	}
 
 
